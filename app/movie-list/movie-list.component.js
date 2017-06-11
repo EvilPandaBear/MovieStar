@@ -1,6 +1,6 @@
 'use strict';
 
-// Register `phoneList` component, along with its associated controller and template
+// Register `movieList` component, along with its associated controller and template
 angular.
   module('movieList').
   component('movieList', {
@@ -8,15 +8,20 @@ angular.
     controller: function MovieListController() {
       this.movies = [
         {
-            name: 'film1',
-            snippet: 'mega cooler film 1'
+            name: 'aaa',
+            snippet: 'mega cooler film 1',
+            age: 1
         }, {
-            name: 'film2',
-            snippet: 'super cooler film 2'
+            name: 'ccc',
+            snippet: 'super cooler film 2',
+            age: 2
         }, {
-            name: 'film3',
-            snippet: 'super cooler film 3'
+            name: 'bbb',
+            snippet: 'super cooler film 3',
+            age: 3
         }
       ];
+
+      this.orderProp = 'age';
     }
   });
