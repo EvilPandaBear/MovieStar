@@ -1,1 +1,4 @@
-angular.module('movieList',[]);
+'use strict';
+
+// Define the `movieList` module
+angular.module('movieList', []);
